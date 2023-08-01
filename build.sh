@@ -1,6 +1,6 @@
 #!/bin/sh
 
-source bin/bin/activate
+source ../raylib-tik/bin/activate
 
 python main.py
 

@@ -1,0 +1,26 @@
+                                        Help 
+
+How to read a Fibonacci Clock:
+1. Color code: Each block has a specific color:
+   - Red: Represents hours.
+   - Blue: Represents minutes.
+   - Green: Represents both hours and minutes.
+
+2. Block Size: The length of each block corresponds to a Fibonacci number:
+   - 1 block: 1
+   - 2 block: 1
+   - 3 blocks: 2
+   - 4 blocks: 3
+   - 5 blocks: 5
+
+3. Hour Blocks: Add all the red and green blocks together to get the hour.
+
+4. Minute Blocks: Add all the blue and green blocks together,
+                  then multiply by 5 to get the minutes.
+
+6. Example: For a clock with 3 red blocks, 5 blue blocks, and 1 green block:
+   - Hours: 3 (red blocks)
+   - Minutes: (5 blue blocks) x 5 = 25
+   - Combined: Hours + Minutes + Green block value (if any).
+
+Press m to go back to main screen. q to quite application.
